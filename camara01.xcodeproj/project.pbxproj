@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		AC421CAF23305F72000A8EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC421CAD23305F72000A8EFE /* Main.storyboard */; };
 		AC421CB123305F74000A8EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC421CB023305F74000A8EFE /* Assets.xcassets */; };
 		AC421CB423305F74000A8EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC421CB223305F74000A8EFE /* LaunchScreen.storyboard */; };
+		ACDF9EC62330646E005EB0D1 /* FirabaseConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF9EC52330646E005EB0D1 /* FirabaseConnector.swift */; };
+		ACDF9EC823306A46005EB0D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACDF9EC723306A45005EB0D1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		AC421CB023305F74000A8EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC421CB323305F74000A8EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC421CB523305F75000A8EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDF9EC52330646E005EB0D1 /* FirabaseConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirabaseConnector.swift; sourceTree = "<group>"; };
+		ACDF9EC723306A45005EB0D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E45BC87B2DF7066AD2E8A131 /* Pods_camara01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_camara01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +71,8 @@
 				AC421CB023305F74000A8EFE /* Assets.xcassets */,
 				AC421CB223305F74000A8EFE /* LaunchScreen.storyboard */,
 				AC421CB523305F75000A8EFE /* Info.plist */,
+				ACDF9EC723306A45005EB0D1 /* GoogleService-Info.plist */,
+				ACDF9EC52330646E005EB0D1 /* FirabaseConnector.swift */,
 			);
 			path = camara01;
 			sourceTree = "<group>";
@@ -85,7 +91,6 @@
 				81D247334CAA83786B068D2B /* Pods-camara01.debug.xcconfig */,
 				9A5C5C275F83CAA58685CD05 /* Pods-camara01.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC421CB423305F74000A8EFE /* LaunchScreen.storyboard in Resources */,
+				ACDF9EC823306A46005EB0D1 /* GoogleService-Info.plist in Resources */,
 				AC421CB123305F74000A8EFE /* Assets.xcassets in Resources */,
 				AC421CAF23305F72000A8EFE /* Main.storyboard in Resources */,
 			);
@@ -206,6 +212,7 @@
 			files = (
 				AC421CAC23305F72000A8EFE /* ViewController.swift in Sources */,
 				AC421CAA23305F72000A8EFE /* AppDelegate.swift in Sources */,
+				ACDF9EC62330646E005EB0D1 /* FirabaseConnector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
